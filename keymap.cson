@@ -58,6 +58,10 @@
 '.platform-darwin':
   'cmd-shift-M': 'tree-view:toggle'
 
+#Find and replace
+'.platform-darwin atom-text-editor':
+  'ctrl-d': 'find-and-replace:select-next'
+
 #Move items
 'body':
   'cmd-alt-shift-left': 'pane:move-item-left'
