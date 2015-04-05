@@ -24,6 +24,7 @@
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
 
+#Delete Line
 '.platform-darwin atom-text-editor':
   'cmd-d': 'editor:delete-line'
 
