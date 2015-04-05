@@ -28,6 +28,13 @@
 '.platform-darwin atom-text-editor':
   'cmd-d': 'editor:delete-line'
 
+#Move and duplicate line
+'body atom-workspace atom-text-editor:not([mini])':
+  'alt-down': 'editor:move-line-down'
+  'alt-up': 'editor:move-line-up'
+  #'alt-cmd-up' : 'editor:duplicate-line-up'
+  'alt-cmd-down' : 'editor:duplicate-lines'
+
 #Add line to selection
 'atom-workspace atom-text-editor:not([mini])':
   'pageup'  : 'editor:add-selection-above'
