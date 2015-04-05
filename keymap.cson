@@ -53,3 +53,7 @@
   'ctrl-alt-cmd-down' : 'pane:split-down'
   'ctrl-alt-cmd-left' : 'pane:split-left'
   'ctrl-alt-cmd-right': 'pane:split-right'
+
+#tree view
+'.platform-darwin':
+  'cmd-shift-M': 'tree-view:toggle'
