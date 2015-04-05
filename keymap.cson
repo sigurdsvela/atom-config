@@ -29,5 +29,5 @@
 
 #Add line to selection
 'atom-workspace atom-text-editor:not([mini])':
-  'fn-up'  : 'editor:add-selection-above'
-  'fn-down': 'editor:add-selection-below'
+  'shift-alt-up'  : 'editor:add-selection-above'
+  'shift-alt-down': 'editor:add-selection-below'
