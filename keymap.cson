@@ -24,6 +24,10 @@
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
 
+#Find and replace
+'.platform-darwin atom-text-editor':
+  'ctrl-d': 'find-and-replace:select-next'
+
 #Delete Line
 '.platform-darwin atom-text-editor':
   'cmd-d': 'editor:delete-line'
@@ -57,10 +61,6 @@
 #tree view
 '.platform-darwin':
   'cmd-shift-M': 'tree-view:toggle'
-
-#Find and replace
-'.platform-darwin atom-text-editor':
-  'ctrl-d': 'find-and-replace:select-next'
 
 #Move items
 'body':
