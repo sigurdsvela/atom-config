@@ -48,7 +48,7 @@
   'ctrl-alt-right': 'window:focus-pane-on-right'
 
 #Pane Split Shortcuts
-'body':
+'body atom-workspace atom-text-editor':
   'ctrl-alt-cmd-up'   : 'pane:split-up'
   'ctrl-alt-cmd-down' : 'pane:split-down'
   'ctrl-alt-cmd-left' : 'pane:split-left'
