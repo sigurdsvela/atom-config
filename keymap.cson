@@ -29,5 +29,19 @@
 
 #Add line to selection
 'atom-workspace atom-text-editor:not([mini])':
-  'shift-alt-up'  : 'editor:add-selection-above'
-  'shift-alt-down': 'editor:add-selection-below'
+  'pageup'  : 'editor:add-selection-above'
+  'pagedown': 'editor:add-selection-below'
+
+#Pane Focus Shortcuts
+'atom-workspace atom-text-editor':
+  'ctrl-alt-up'   : 'window:focus-pane-above'
+  'ctrl-alt-down' : 'window:focus-pane-below'
+  'ctrl-alt-left' : 'window:focus-pane-on-left'
+  'ctrl-alt-right': 'window:focus-pane-on-right'
+
+#Pane Split Shortcuts
+'body':
+  'ctrl-alt-cmd-up'   : 'pane:split-up'
+  'ctrl-alt-cmd-down' : 'pane:split-down'
+  'ctrl-alt-cmd-left' : 'pane:split-left'
+  'ctrl-alt-cmd-right': 'pane:split-right'
